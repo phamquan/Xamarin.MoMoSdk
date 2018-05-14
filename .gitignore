@@ -1,0 +1,14 @@
+/Xamarin.MoMoSdk/packages
+/NativeLibs/MoMoiOSsdkv2/build
+/NativeLibs/MoMoiOSsdkv2/output
+/Xamarin.MoMoSdk/.vs
+/Xamarin.MoMoSdk/Examples/Droid/obj
+/Xamarin.MoMoSdk/Examples/iOS/bin
+/Xamarin.MoMoSdk/Examples/iOS/obj
+/Xamarin.MoMoSdk/Examples/MoMoExample/bin
+/Xamarin.MoMoSdk/Examples/MoMoExample/obj
+/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.iOS/bin
+/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.iOS/obj
+/Xamarin.MoMoSdk/Examples/MoMoExample/project.lock.json
+/Xamarin.MoMoSdk/Examples/MoMoExample/MoMoExample.csproj.nuget.cache
+/Xamarin.MoMoSdk/Examples/MoMoExample/MoMoExample.nuget.targets

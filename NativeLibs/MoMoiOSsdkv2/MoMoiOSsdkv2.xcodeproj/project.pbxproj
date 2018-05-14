@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F5DEBA20A97E1C00F8A588 /* MoMoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5DEAB20A97E1C00F8A588 /* MoMoConfig.m */; };
+		E2F5DEBB20A97E1C00F8A588 /* MoMoDialogs.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5DEAD20A97E1C00F8A588 /* MoMoDialogs.m */; };
+		E2F5DEBC20A97E1C00F8A588 /* MoMoPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5DEAF20A97E1C00F8A588 /* MoMoPayment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2F5DE8F20A960FC00F8A588 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2F5DE9120A960FC00F8A588 /* libMoMoiOSsdkv2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoMoiOSsdkv2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F5DEA920A97E1C00F8A588 /* MoMo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoMo.h; sourceTree = "<group>"; };
+		E2F5DEAA20A97E1C00F8A588 /* MoMoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoMoConfig.h; sourceTree = "<group>"; };
+		E2F5DEAB20A97E1C00F8A588 /* MoMoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoMoConfig.m; sourceTree = "<group>"; };
+		E2F5DEAC20A97E1C00F8A588 /* MoMoDialogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoMoDialogs.h; sourceTree = "<group>"; };
+		E2F5DEAD20A97E1C00F8A588 /* MoMoDialogs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoMoDialogs.m; sourceTree = "<group>"; };
+		E2F5DEAE20A97E1C00F8A588 /* MoMoPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoMoPayment.h; sourceTree = "<group>"; };
+		E2F5DEAF20A97E1C00F8A588 /* MoMoPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoMoPayment.m; sourceTree = "<group>"; };
+		E2F5DEB120A97E1C00F8A588 /* momo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo.png; sourceTree = "<group>"; };
+		E2F5DEB220A97E1C00F8A588 /* momo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "momo@2x.png"; sourceTree = "<group>"; };
+		E2F5DEB320A97E1C00F8A588 /* momo_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo_back.png; sourceTree = "<group>"; };
+		E2F5DEB420A97E1C00F8A588 /* momo_highlights.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo_highlights.png; sourceTree = "<group>"; };
+		E2F5DEB520A97E1C00F8A588 /* momo_highlights@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "momo_highlights@2x.png"; sourceTree = "<group>"; };
+		E2F5DEB620A97E1C00F8A588 /* momo_ic_reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo_ic_reload.png; sourceTree = "<group>"; };
+		E2F5DEB720A97E1C00F8A588 /* momo_ic_reload_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo_ic_reload_press.png; sourceTree = "<group>"; };
+		E2F5DEB820A97E1C00F8A588 /* momo_lock_symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momo_lock_symbol.png; sourceTree = "<group>"; };
+		E2F5DEB920A97E1C00F8A588 /* momoclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = momoclose.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F5DE8E20A960FC00F8A588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F5DE8820A960FC00F8A588 = {
+			isa = PBXGroup;
+			children = (
+				E2F5DE9320A960FC00F8A588 /* MoMoiOSsdkv2 */,
+				E2F5DE9220A960FC00F8A588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F5DE9220A960FC00F8A588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5DE9120A960FC00F8A588 /* libMoMoiOSsdkv2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F5DE9320A960FC00F8A588 /* MoMoiOSsdkv2 */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5DEB020A97E1C00F8A588 /* Assets */,
+				E2F5DEA820A97E1C00F8A588 /* Classes */,
+			);
+			path = MoMoiOSsdkv2;
+			sourceTree = "<group>";
+		};
+		E2F5DEA820A97E1C00F8A588 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5DEA920A97E1C00F8A588 /* MoMo.h */,
+				E2F5DEAA20A97E1C00F8A588 /* MoMoConfig.h */,
+				E2F5DEAB20A97E1C00F8A588 /* MoMoConfig.m */,
+				E2F5DEAC20A97E1C00F8A588 /* MoMoDialogs.h */,
+				E2F5DEAD20A97E1C00F8A588 /* MoMoDialogs.m */,
+				E2F5DEAE20A97E1C00F8A588 /* MoMoPayment.h */,
+				E2F5DEAF20A97E1C00F8A588 /* MoMoPayment.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E2F5DEB020A97E1C00F8A588 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5DEB120A97E1C00F8A588 /* momo.png */,
+				E2F5DEB220A97E1C00F8A588 /* momo@2x.png */,
+				E2F5DEB320A97E1C00F8A588 /* momo_back.png */,
+				E2F5DEB420A97E1C00F8A588 /* momo_highlights.png */,
+				E2F5DEB520A97E1C00F8A588 /* momo_highlights@2x.png */,
+				E2F5DEB620A97E1C00F8A588 /* momo_ic_reload.png */,
+				E2F5DEB720A97E1C00F8A588 /* momo_ic_reload_press.png */,
+				E2F5DEB820A97E1C00F8A588 /* momo_lock_symbol.png */,
+				E2F5DEB920A97E1C00F8A588 /* momoclose.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F5DE9020A960FC00F8A588 /* MoMoiOSsdkv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F5DE9A20A960FC00F8A588 /* Build configuration list for PBXNativeTarget "MoMoiOSsdkv2" */;
+			buildPhases = (
+				E2F5DE8D20A960FC00F8A588 /* Sources */,
+				E2F5DE8E20A960FC00F8A588 /* Frameworks */,
+				E2F5DE8F20A960FC00F8A588 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoMoiOSsdkv2;
+			productName = MoMoiOSsdkv2;
+			productReference = E2F5DE9120A960FC00F8A588 /* libMoMoiOSsdkv2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F5DE8920A960FC00F8A588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Home Credit Vietnam";
+				TargetAttributes = {
+					E2F5DE9020A960FC00F8A588 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2F5DE8C20A960FC00F8A588 /* Build configuration list for PBXProject "MoMoiOSsdkv2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F5DE8820A960FC00F8A588;
+			productRefGroup = E2F5DE9220A960FC00F8A588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F5DE9020A960FC00F8A588 /* MoMoiOSsdkv2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F5DE8D20A960FC00F8A588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5DEBA20A97E1C00F8A588 /* MoMoConfig.m in Sources */,
+				E2F5DEBC20A97E1C00F8A588 /* MoMoPayment.m in Sources */,
+				E2F5DEBB20A97E1C00F8A588 /* MoMoDialogs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2F5DE9820A960FC00F8A588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2F5DE9920A960FC00F8A588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F5DE9B20A960FC00F8A588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV58HC7RTF;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F5DE9C20A960FC00F8A588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV58HC7RTF;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F5DE8C20A960FC00F8A588 /* Build configuration list for PBXProject "MoMoiOSsdkv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5DE9820A960FC00F8A588 /* Debug */,
+				E2F5DE9920A960FC00F8A588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F5DE9A20A960FC00F8A588 /* Build configuration list for PBXNativeTarget "MoMoiOSsdkv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5DE9B20A960FC00F8A588 /* Debug */,
+				E2F5DE9C20A960FC00F8A588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F5DE8920A960FC00F8A588 /* Project object */;
+}
