@@ -123,10 +123,6 @@
       <Project>{68677D9F-94BF-4CFE-A77B-CD4ECD6B5454}</Project>
       <Name>MoMoExample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\Xamarin.MoMoSdk.iOS\Xamarin.MoMoSdk.iOS.csproj">
-      <Project>{C081B867-7358-46AD-83E3-98CDBD54164F}</Project>
-      <Name>Xamarin.MoMoSdk.iOS</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj">
       <Project>{807704DE-011F-4972-898F-7B5F8EEFE8E4}</Project>
       <Name>Xamarin.MoMoSdk.Abstractions</Name>

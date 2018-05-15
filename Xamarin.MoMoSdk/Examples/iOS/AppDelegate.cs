@@ -4,7 +4,7 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
-using Xamarin.MoMoSdk.iOS;
+using Xamarin.MoMoSdk;
 
 namespace MoMoExample.iOS
 {
@@ -16,8 +16,9 @@ namespace MoMoExample.iOS
 
             //var t  = MoMoPayment.ShareInstant;
 
-            Xamarin.MoMoSdk.Shared.
-
+            MoMoSdk.Current.Init(NSBundle.MainBundle.BundleIdentifier,
+                                 "HCVN", "Home Credit Vietnam", "Home Credit App", "Payment for installments");
+            
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());

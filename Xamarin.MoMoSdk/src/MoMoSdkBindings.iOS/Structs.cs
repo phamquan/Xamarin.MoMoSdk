@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Xamarin.MoMoSdk.iOS
+namespace MoMoSdkBindings.iOS
 {
     public enum MomoEnvirontment : uint
     {
