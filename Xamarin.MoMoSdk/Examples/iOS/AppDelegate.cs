@@ -14,7 +14,10 @@ namespace MoMoExample.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
 
-            var t  = MoMoPayment.ShareInstant;
+            //var t  = MoMoPayment.ShareInstant;
+
+            Xamarin.MoMoSdk.Shared.
+
             global::Xamarin.Forms.Forms.Init();
 
             LoadApplication(new App());

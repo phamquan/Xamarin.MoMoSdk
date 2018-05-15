@@ -37,6 +37,7 @@
     <Compile Include="MoMoiOSsdkv2-universal.linkwith.cs">
       <DependentUpon>MoMoiOSsdkv2-universal.a</DependentUpon>
     </Compile>
+    <Compile Include="MoMoSdkImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
@@ -47,5 +48,12 @@
   <ItemGroup>
     <ObjcBindingNativeLibrary Include="MoMoiOSsdkv2-universal.a" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj">
+      <Project>{807704DE-011F-4972-898F-7B5F8EEFE8E4}</Project>
+      <Name>Xamarin.MoMoSdk.Abstractions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems" Label="Shared" Condition="Exists('..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
