@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using MoMoExample.Services;
+using MoMoSdkBindings.iOS;
 using UIKit;
-using Xamarin.MoMoSdk;
+using Xamarin.Forms;
 
 namespace MoMoExample.iOS
 {
@@ -16,14 +18,24 @@ namespace MoMoExample.iOS
 
             //var t  = MoMoPayment.ShareInstant;
 
-            MoMoSdk.Current.Init(NSBundle.MainBundle.BundleIdentifier,
-                                 "HCVN", "Home Credit Vietnam", "Home Credit App", "Payment for installments");
-            
+
+            //CrossMoMoSdk.Current.Init();
+
             global::Xamarin.Forms.Forms.Init();
+
+            DependencyService.Get<IMoMoService>()
+                             .Init(NSBundle.MainBundle.BundleIdentifier, "HCVN", "Home Credit Vietnam", "Home Credit App", "Payment for installments");
 
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }
-    }
+
+		public override bool HandleOpenURL(UIApplication application, NSUrl url)
+		{
+
+            MoMoPayment.ShareInstant.HandleOpenUrl(url);
+            return true;
+		}
+	}
 }

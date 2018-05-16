@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.MoMoSdk</name>
+    </assembly>
+    <members>
+        <member name="P:Xamarin.MoMoSdk.CrossMoMoSdk.IsSupported">
+            <summary>
+            Gets if the plugin is supported on the current platform.
+            </summary>
+        </member>
+        <member name="P:Xamarin.MoMoSdk.CrossMoMoSdk.Current">
+            <summary>
+            Current plugin implementation to use
+            </summary>
+        </member>
+    </members>
+</doc>

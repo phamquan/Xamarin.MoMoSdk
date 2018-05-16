@@ -3,7 +3,7 @@ using Xamarin.MoMoSdk.Abstractions;
 
 namespace Xamarin.MoMoSdk
 {
-    public class MoMoSdk
+    public class CrossMoMoSdk
     {
         static Lazy<IMoMoSdk> implementation = new Lazy<IMoMoSdk>(() => Create(), System.Threading.LazyThreadSafetyMode.PublicationOnly);
 
@@ -30,7 +30,7 @@ namespace Xamarin.MoMoSdk
 
         static IMoMoSdk Create()
         {
-#if NETSTANDARD1_0 || NETSTANDARD2_0 || PCL
+#if NETSTANDARD1_0
             return null;
 #else
             return new MoMoSdkImplementation();

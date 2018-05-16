@@ -1,0 +1,8 @@
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/bin/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.deps.json
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/bin/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.dll
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/bin/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.pdb
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.AssemblyInfoInputs.cache
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.AssemblyInfo.cs
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.dll
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj/Debug/netstandard1.0/Xamarin.MoMoSdk.Abstractions.pdb

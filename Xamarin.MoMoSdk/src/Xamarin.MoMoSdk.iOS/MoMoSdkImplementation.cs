@@ -42,6 +42,7 @@ namespace Xamarin.MoMoSdk
         }
     }
 
+    [Preserve(AllMembers = true)]
     public partial class MoMoSdkImplementation : IMoMoSdk
     {
         public MoMoSdkImplementation()
@@ -52,6 +53,11 @@ namespace Xamarin.MoMoSdk
         {
             MoMoPayment.ShareInstant.InitializingAppBundleId(bundleid, merchantId, merchantname, merchantNameTitle, billTitle);
             MoMoPayment.ShareInstant.RequestToken();
+        }
+
+        public void Init()
+        {
+            //throw new NotImplementedException();
         }
 
         public void PayExample()

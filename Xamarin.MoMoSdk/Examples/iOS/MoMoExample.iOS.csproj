@@ -29,7 +29,6 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <DeviceSpecificBuild>false</DeviceSpecificBuild>
     <MtouchVerbosity></MtouchVerbosity>
-    <MtouchExtraArgs>--registrar:static</MtouchExtraArgs>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -69,7 +68,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
     <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
@@ -77,9 +75,10 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <IOSDebuggerPort>52814</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchArch>ARM64</MtouchArch>
+    <MtouchArch>ARMv7, ARMv7s, ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchVerbosity></MtouchVerbosity>
+    <DeviceSpecificBuild>true</DeviceSpecificBuild>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -105,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -117,15 +117,16 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Services\MoMoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MoMoExample\MoMoExample.csproj">
       <Project>{68677D9F-94BF-4CFE-A77B-CD4ECD6B5454}</Project>
       <Name>MoMoExample</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj">
-      <Project>{807704DE-011F-4972-898F-7B5F8EEFE8E4}</Project>
-      <Name>Xamarin.MoMoSdk.Abstractions</Name>
+    <ProjectReference Include="..\..\src\MoMoSdkBindings.iOS\MoMoSdkBindings.iOS.csproj">
+      <Project>{65E17C9F-1AEE-4A06-AAE6-342085DA354E}</Project>
+      <Name>MoMoSdkBindings.iOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

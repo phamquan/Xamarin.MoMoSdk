@@ -55,13 +55,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj">
-      <Project>{807704DE-011F-4972-898F-7B5F8EEFE8E4}</Project>
-      <Name>Xamarin.MoMoSdk.Abstractions</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MoMoSdkBindings.iOS\MoMoSdkBindings.iOS.csproj">
       <Project>{65E17C9F-1AEE-4A06-AAE6-342085DA354E}</Project>
       <Name>MoMoSdkBindings.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj">
+      <Project>{EC1D8253-B200-4B12-87CD-51FEE2B9D2C1}</Project>
+      <Name>Xamarin.MoMoSdk.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems" Label="Shared" Condition="Exists('..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems')" />

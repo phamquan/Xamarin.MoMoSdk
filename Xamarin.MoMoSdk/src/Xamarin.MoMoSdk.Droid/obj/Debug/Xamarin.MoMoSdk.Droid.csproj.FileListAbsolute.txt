@@ -1,0 +1,6 @@
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/bin/Debug/Xamarin.MoMoSdk.Droid.dll
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/bin/Debug/Xamarin.MoMoSdk.Droid.pdb
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/obj/Debug/Xamarin.MoMoSdk.Droid.csprojResolveAssemblyReference.cache
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/obj/Debug/Xamarin.MoMoSdk.Droid.csproj.CoreCompileInputs.cache
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/obj/Debug/Xamarin.MoMoSdk.Droid.dll
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/obj/Debug/Xamarin.MoMoSdk.Droid.pdb

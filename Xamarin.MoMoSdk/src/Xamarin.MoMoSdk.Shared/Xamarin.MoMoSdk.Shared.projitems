@@ -9,7 +9,7 @@
     <Import_RootNamespace>Xamarin.MoMoSdk.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MoMoSdk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CrossMoMoSdk.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MoMoSdkImplementation.cs" />
   </ItemGroup>
 </Project>

@@ -3,3 +3,4 @@
 /Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/MoMoSdkBindings.iOS/obj/Debug/MoMoSdkBindings.iOS.csproj.CoreCompileInputs.cache
 /Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/MoMoSdkBindings.iOS/obj/Debug/MoMoSdkBindings.iOS.dll
 /Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/MoMoSdkBindings.iOS/obj/Debug/MoMoSdkBindings.iOS.pdb
+/Users/mac/Projects/Xamarin.MoMoSdk/Xamarin.MoMoSdk/src/MoMoSdkBindings.iOS/obj/Debug/MoMoSdkBindings.iOS.csprojResolveAssemblyReference.cache

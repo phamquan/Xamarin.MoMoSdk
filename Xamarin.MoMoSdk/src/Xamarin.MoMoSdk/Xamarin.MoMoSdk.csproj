@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netstandard1.0\Xamarin.MoMoSdk.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.MoMoSdk.Abstractions\Xamarin.MoMoSdk.Abstractions.csproj" />
+  </ItemGroup>
+  <Import Project="..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems" Label="Shared" Condition="Exists('..\Xamarin.MoMoSdk.Shared\Xamarin.MoMoSdk.Shared.projitems')" />
+</Project>
