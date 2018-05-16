@@ -12,3 +12,5 @@
 /Xamarin.MoMoSdk/Examples/MoMoExample/project.lock.json
 /Xamarin.MoMoSdk/Examples/MoMoExample/MoMoExample.csproj.nuget.cache
 /Xamarin.MoMoSdk/Examples/MoMoExample/MoMoExample.nuget.targets
+/Xamarin.MoMoSdk/src/MoMoSdkBindings.Droid/bin
+/Xamarin.MoMoSdk/src/MoMoSdkBindings.Droid/obj
