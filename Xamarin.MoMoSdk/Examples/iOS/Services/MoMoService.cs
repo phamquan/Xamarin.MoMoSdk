@@ -5,34 +5,11 @@ using Xamarin.Forms;
 using MoMoSdkBindings.iOS;
 using Foundation;
 using UIKit;
+using MoMoExample.Services.MoMo;
 
 [assembly: Dependency(typeof(MoMoService))]
 namespace MoMoExample.iOS.Services
 {
-
-    public class PaymentInfo
-    {
-        public int Amount { get; set; }
-        public int Fee { get; set; }
-        public string Description { get; set; }
-        public string Extra { get; set; }
-        public string Language { get; set; }
-        public string Username { get; set; }
-
-        public static PaymentInfo ExamplePayment()
-        {
-            return new PaymentInfo
-            {
-                Amount = 99000,
-                Fee = 0,
-                Description = "Mua vé xem phim cgv",
-                Extra = "{\"key1\":\"value1\",\"key2\":\"value2\"}",
-                Username = "username_accountId@yahoo.com",
-                Language = "vi"
-            };
-        }
-    }
-
     public class MoMoService : IMoMoService
     {
 

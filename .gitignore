@@ -14,3 +14,8 @@
 /Xamarin.MoMoSdk/Examples/MoMoExample/MoMoExample.nuget.targets
 /Xamarin.MoMoSdk/src/MoMoSdkBindings.Droid/bin
 /Xamarin.MoMoSdk/src/MoMoSdkBindings.Droid/obj
+/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Abstractions/obj
+/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk/obj
+/Xamarin.MoMoSdk/src/MoMoSdkBindings.iOS/obj
+/Xamarin.MoMoSdk/Examples/Droid/bin
+/Xamarin.MoMoSdk/src/Xamarin.MoMoSdk.Droid/obj
